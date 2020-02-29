@@ -55,7 +55,7 @@
 
 
 						<li>
-							<a href="services-list.html">O nama</a>
+							<a href="#">O nama</a>
 							<ul class="sub-menu">
 								<li><a href="about.html">O parku</a></li>
 								<li><a href="osobna.html">Osobna karta parka</a></li>
@@ -63,10 +63,10 @@
 						</li>
 
 						<li>
-							<a href="#">Turist info</a>
+							<a href="turistickicentar.html">Turist info</a>
 							<ul class="sub-menu">
 							<li><a href="turistinfo.html">Kako doći?</a></li>
-							<li><a href="turistickicentar.html">Turistički info centar</a></li>	
+							
 							</ul>
 						</li>
 
@@ -74,18 +74,14 @@
 							<a href="#">Šta vidjeti?</a>
 							<ul class="sub-menu">
 								<li><a href="masica.html">Jezero Mašica</a></li>
-								
+								<li><a href="tajan.html">Planina Tajan</a></li>
 								
 							</ul>
 						</li>
 
 						<li>
-							<a href="shop-grid.html">Shop</a>
-							<ul class="sub-menu">
-								<li><a href="shop-grid.html">Shop Grid</a></li>
-								<li><a href="shop-detail.html">Shop Detail</a></li>
-								<li><a href="shop-cart.html">Shop Cart</a></li>
-							</ul>
+							<a href="smjestaj.html">Gdje odsjesti?</a>
+							
 						</li>
 
 						<li>
@@ -161,13 +157,14 @@
 	</a>
 	<!--/.Controls-->
   </div>
-  <!--/.Carousel Wrapper-->
+ 
 
 <!-- 
 		=============================================
 			Our Solution
 		============================================== 
 		-->
+		
 		<div class="our-solution section-spacing">
 			<div class="container">
 				
@@ -178,21 +175,24 @@
 							<div class="single-solution-block">
 								<img src="images/icons/staza.png" alt="" class="icon">
 								
-								<h3>70</h3>
-								<p>Planinarskih staza</p>
+							
+									<div class="number"><span class="brojac" data-from="0" data-to="20" data-speed="1200" data-refresh-interval="5">20</span>+</div>
+									<p>Planinarskih staza</p>
 							</div> <!-- /.single-solution-block -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-4 col-sm-6 col-12">
 							<div class="single-solution-block">
 								<img src="images/icons/posjetioci.png" alt="" class="icon">
-								<h3>1,005,000</h3>
+								<div class="number"><span class="brojac" data-from="0" data-to="20" data-speed="1200" data-refresh-interval="5">1,005,000</span>+</div>
+
 								<p>Posjetitelja</p>
 							</div> <!-- /.single-solution-block -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-4 col-sm-6 col-12">
 							<div class="single-solution-block">
 								<img src="images/icons/wood.png" alt="" class="icon">
-								<h3>500</h3>
+								<div class="number"><span class="brojac" data-from="0" data-to="20" data-speed="1200" data-refresh-interval="5">100</span>+</div>
+
 								<p>Biljnih vrsta </p>
 							</div> <!-- /.single-solution-block -->
 						</div> <!-- /.col- -->
@@ -327,19 +327,22 @@
 		</div>
 	  </div>
 </div>
-<!--
-			=====================================================
-				Short Banner
-			=====================================================
-			-->
-			<div class="short-banner section-spacing">
-				<div class="overlay">
-					<div class="container">
-						<h2>Ugodan odmor nudi Vam Park prirode "Tajan"</h2>
-						
-					</div>
-				</div> <!-- /.overlay -->
-			</div> <!-- /.short-banner -->
+<div class="jumbotron jumbotron-fluid">
+			
+	<div class="overlay"></div>
+	<video playsinline="playsinline" autoplay="autoplay" muted="muted" >
+	  <source src="video/tajan.mp4" type="video/mp4">
+	</video>
+	
+	</div>
+  
+
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+
 
 <!---
 			=============================================
@@ -360,7 +363,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-sm-6 col-12">
 							<div class="single-solution-block">
-								<img src="images/icons/kakodonas.png" alt="" class="icon">
+								<a href="tueis"><img src="images/icons/kakodonas.png" alt="" class="icon"></a>
 								<h3 style="font-size: 25px; color: black; font-weight: bold;">Kako do nas?</h3>
 								<p style="font-size: 16px;">GPS koordinate 44.341943,18.196670 Za sve informacije vezane za drumski saobraćaj, autobuske linije, najkraće puteve, planirane rute klikom na link.</p>
 							</div> <!-- /.single-solution-block -->
@@ -386,22 +389,7 @@
 		</div> <!-- /.our-solution -->
 		  
 
-		<div class="jumbotron jumbotron-fluid">
-			
-				<div class="overlay"></div>
-				<video playsinline="playsinline" autoplay="autoplay" muted="muted" >
-				  <source src="video/tajan.mp4" type="video/mp4">
-				</video>
-				
-				</div>
-			  
-			
-			
-			  </div>
-			  <!-- /.container -->
-			</div>
-			<!-- /.jumbotron -->
-
+	
 
 	
 
@@ -550,54 +538,13 @@
 		</div>
 	</section>
 
-	<!-- Send message -->
-	<section class="bg-0 p-t-92 p-b-100">
-		<div class="container">
-			<!-- Title section -->
-			<div class="flex-col-c-c p-b-44">
-				<h3 class="t1-b-1 cl-3 txt-center m-b-11">
-					Pošaljite nam poruku
-				</h3>
-
-				<div class="size-a-2 bg-3"></div>
-			</div>
-
-			<!--  -->
-			<form class="row">
-				<div class="col-md-4 p-b-20">
-					<div>
-						<input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Ime i prezime">
-					</div>
-				</div>
-
-				<div class="col-md-4 p-b-20">
-					<div>
-						<input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="email" placeholder="Email">
-					</div>
-				</div>
-
-				<div class="col-md-4 p-b-20">
-					<div>
-						<input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="phone" placeholder="Broj telefona">
-					</div>
-				</div>
-
-				<div class="col-12 p-b-30">
-					<textarea class="size-a-14 t1-m-2 plh-6 cl-6 p-rl-20 p-tb-13 bo-1-rad-4 bcl-12 focus-in1" name="msg" placeholder="Vaša poruka"></textarea>
-				</div>
-
-				<div class="col-12 flex-wr-c-c">
-					<button class="size-a-15 flex-c-c bg-11 t1-s-2 text-uppercase cl-0 hov-btn1 trans-02 p-rl-15">
-						Pošalji
-					</button>
-				</div>
-			</form>
+		<!-- Map -->
+		<div class="map">
+			<div class="contact-map size-h-4" id="google_map" data-map-x="40.748910" data-map-y="-74.401956" data-scrollwhell="0" data-draggable="1"  data-zoom="16" data-pin="images/icons/pin-map.png"></div>
 		</div>
-	</section>
-	
 	<!-- Footer -->
 	<footer>
-		<div class="parallax100 kit-overlay1 p-t-35 p-b-15" style="background-image: url(images/bg-03.jpg);">
+		<div class="parallax100 kit-overlay1 p-t-35 p-b-15" style="background-image: url(images/2.jpg);">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
@@ -615,7 +562,7 @@
 					<div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
 						<div class="size-h-1 flex-s-e m-b-18">
 							<h4 class="t1-m-3 text-uppercase cl-0">
-								Contact us
+								Kontakt
 							</h4>
 						</div>
 
@@ -626,7 +573,7 @@
 								</span>
 
 								<span class="size-w-4">
-									379 5Th Ave New York, Nyc 10018
+									Kamenica,72220 Zavidovići
 								</span>
 							</li>
 
@@ -636,7 +583,7 @@
 								</span>
 
 								<span class="size-w-4">
-									contac@gmail.com
+									info@tajan.ba
 								</span>
 							</li>
 
@@ -646,9 +593,9 @@
 								</span>
 
 								<span class="size-w-4">
-									(+1) 96 716 6879
+									387 32 851-090
 									<br>
-									(+1) 96 716 6897
+									
 								</span>
 							</li>
 						</ul>
@@ -812,6 +759,9 @@
 <!--===============================================================================================-->
 	<script src="vendor/slick/slick.min.js"></script>
 	<script src="js/slick-custom.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbKslaNX8iZU_XjqG5D_wleR9-wDQfzvs"></script>
+	<script src="js/map-custom.js"></script>
+
 <!--===============================================================================================-->
 	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
 <!--===============================================================================================-->

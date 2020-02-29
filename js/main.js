@@ -67,7 +67,13 @@
               .hide();
           }
         }
-    
+        var timer = $('.brojac');
+        if(timer.length) {
+            timer.appear(function () {
+              timer.countTo();
+          })
+        }
+
         /**
          *
          * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.

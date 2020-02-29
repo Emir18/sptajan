@@ -16,8 +16,8 @@
                 img_pin = 'images/icons/location.png';
             }
             if (data_map_x === null || data_map_y === null) {
-                data_map_x = 40.007749;
-                data_map_y = -93.266572;
+                data_map_x = 44.341943 ;
+                data_map_y = 18.196670 ;
             }
             if (scrollwhell === null) {
                 scrollwhell = 0;
@@ -33,12 +33,24 @@
 
             var style = [
                 {
-                    "featureType": "all",
-                    "elementType": "all",
+                    "featureType": "water",
+                    "elementType": "geometry",
                     "stylers": [
                     {
-                        "saturation": "-100"
-                    }
+                        "saturation": "100"
+                    },
+                    {
+				        "featureType": "landscape",
+				        "elementType": "geometry",
+				        "stylers": [
+				            {
+				                "color": "#f5f5f5"
+				            },
+				            {
+				                "lightness": 50
+				            },
+				        ]
+				    }
                     ]
                 }
             ];
@@ -63,7 +75,7 @@
                     scaleControl: false,
                     draggable: draggable,
                     styles: style,
-                    center: new google.maps.LatLng(latitude, longitude),
+                    center: new google.maps.LatLng(44.341943, 18.196670),
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 });
             }
