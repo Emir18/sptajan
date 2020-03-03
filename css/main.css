@@ -256,7 +256,13 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
 .pravila{margin-left: -20px;}
 .pravila2{margin-left: -50px;}
 .pravila7{margin-left: -70px;}
-
+.icons{
+  vertical-align: middle;
+    border-style: none;
+    
+  
+}
+}
 /*------------------ Short Banner ------------------*/
 .short-banner {
   background: url(../images/vodopad.jpg) no-repeat center center;
@@ -2944,7 +2950,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 .img-responsive
 {
-    width: 100%; <!-- important-->
+    width: 100%; 
 }
 
 hr{
